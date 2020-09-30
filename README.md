@@ -2,16 +2,22 @@
 
 In this framework consist of how to implement Page Object Model in WebDriverIO
 1) To start, we have to know how to initially check if npm and node is intalled or not
+
   i) Install Node JS
+  
   ii) Install NPM
+  
   iii) To check node version in terminal use 
   
       node -v
+      
   iv) To check npm version use 
   
       npm -v
 2) After installing node and npm, create a workspace in ur VSCode 
+
     eg : WDIO_POM_Framework
+    
 3) Then below are the commands used for inatalling webdriverIO
 
     a) npm init    //initialize the npm installation 
