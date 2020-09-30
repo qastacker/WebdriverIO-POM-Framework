@@ -5,8 +5,10 @@ In this framework consist of how to implement Page Object Model in WebDriverIO
   i) Install Node JS
   ii) Install NPM
   iii) To check node version in terminal use 
+  
       node -v
   iv) To check npm version use 
+  
       npm -v
 2) After installing node and npm, create a workspace in ur VSCode 
     eg : WDIO_POM_Framework
@@ -34,11 +36,13 @@ In this framework consist of how to implement Page Object Model in WebDriverIO
        },
        
 5) Add this in wdio config under before Suite
+
       beforeTest: function (test, context) {
+      
         const chai = require('chai')
         const chaiWebdriver = require('chai-webdriverio').default
         chai.use(chaiWebdriver(browser))
-
+        
         global.assert = chai.assert
         global.should = chai.should
         global.expect = chai.expect
